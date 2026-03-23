@@ -1,7 +1,4 @@
-- Каждый работает в своей ветке: `dev-nikita`, `dev-sanya`, `dev-pasha`!!!!!!!!!!!
-
-
-# Никита(Тимлид)
+# Никита (ТИМЛИД) - ветка `dev-nikita`
 
 - [ ] `server/package.json`
 - [ ] `server/tsconfig.json`
@@ -37,7 +34,7 @@
 
 ---
 
-# Саша
+# Саша - ветка `dev-sasha`
 
 - [ ] `client/package.json`
 - [ ] `client/tsconfig.json`
@@ -67,11 +64,10 @@
 - [ ] Обновить `client/src/styles/global.css` (медиа-запросы, мобильная версия)
 - [ ] Обновить `client/src/components/ProductCard.ts` (добавить data-title, data-price)
 - [ ] Обновить `client/src/pages/HomePage.ts` (добавить data-атрибуты для фильтров)
- 
+
 ---
 
-
-# Паша
+# Паша - ветка `dev-pasha`
 
 - [ ] `client/src/types/index.ts`
 - [ ] `client/src/services/api.ts`
@@ -96,3 +92,14 @@
 - [ ] Обновить `client/src/pages/CartPage.ts` (добавить data-title="basket", data-price="basket")
 - [ ] Обновить `client/src/components/DeliveryForm.ts` (добавить data-delivery-address, data-delivery-phone, data-delivery-email)
 - [ ] Обновить `client/src/pages/CheckoutPage.ts` (интеграция с cartStore)
+
+---
+
+# 🚀 Запуск проекта
+
+## Бэкенд (Никита)
+```bash
+cd server
+npm install
+npm run dev
+# Сервер на http://localhost:3000
