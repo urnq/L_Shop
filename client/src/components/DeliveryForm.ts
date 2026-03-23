@@ -16,8 +16,8 @@ export class DeliveryForm {
         form.innerHTML = `
             <h3>Delivery Information</h3>
             <input type="text" id="address" placeholder="Street Address" data-delivery-address required>
-            <input type="text" id="city" placeholder="City" data-delivery-city required>
-            <input type="text" id="postalCode" placeholder="Postal Code" data-delivery-postal required>
+            <input type="text" id="city" placeholder="City" required>
+            <input type="text" id="postalCode" placeholder="Postal Code" required>
             <input type="tel" id="phone" placeholder="Phone" data-delivery-phone required>
             <input type="email" id="email" placeholder="Email" data-delivery-email required>
             
@@ -71,7 +71,7 @@ export class DeliveryForm {
         const phone = (this.element.querySelector('#phone') as HTMLInputElement).value;
         const email = (this.element.querySelector('#email') as HTMLInputElement).value;
 
-        if (!address  !city  !postalCode  !phone  !email) {
+        if (!address || !city || !postalCode || !phone || !email) {
             alert('Please fill all delivery fields');
             return;
         }
@@ -81,7 +81,8 @@ export class DeliveryForm {
             city,
             postalCode,
             phone,
-            email
+            email,
+            paymentMethod: this.paymentMethod
         });
     }
 

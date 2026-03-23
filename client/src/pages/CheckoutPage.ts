@@ -43,6 +43,7 @@ export class CheckoutPage {
             </div>
         `;
 
+        // Рендерим товары в заказе
         const orderItemsContainer = document.getElementById('order-items');
         if (orderItemsContainer) {
             items.forEach(item => {
@@ -59,10 +60,13 @@ export class CheckoutPage {
             });
         }
 
+        // Рендерим форму доставки
         const formContainer = document.getElementById('delivery-form-container');
         if (formContainer) {
-            const form = new DeliveryForm(async (deliveryInfo) => {
-                const response = await api.createOrder(deliveryInfo, 'card');
+            const form = new DeliveryForm(async (deliveryData) => {
+                const { paymentMethod, ...deliveryInfo } = deliveryData;
+                
+                const response = await api.createOrder(deliveryInfo, paymentMethod);
                 
                 if (response.success) {
                     await cartStore.loadCart();
