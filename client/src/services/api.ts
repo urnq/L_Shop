@@ -8,7 +8,7 @@ class ApiService {
         options: RequestInit = {}
     ): Promise<ApiResponse<T>> {
         try {
-            const response = await fetch(${API_BASE_URL}${endpoint}, {
+            const response = await fetch(`${API_BASE_URL}${endpoint}`, {
                 ...options,
                 credentials: 'include',
                 headers: {
@@ -29,11 +29,11 @@ class ApiService {
 
     async getProducts(params?: QueryParams): Promise<ApiResponse<Product[]>> {
         const queryString = params ? '?' + new URLSearchParams(params as any).toString() : '';
-        return this.request<Product[]>(/products${queryString});
+        return this.request<Product[]>(`/products${queryString}`);
     }
 
     async getProduct(id: string): Promise<ApiResponse<Product>> {
-        return this.request<Product>(/products/${id});
+        return this.request<Product>(`/products/${id}`);
     }
 
     async register(data: { email: string; password: string; username: string; phone?: string }): Promise<ApiResponse<{ userId: string; username: string }>> {

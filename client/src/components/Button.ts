@@ -3,7 +3,7 @@ export class Button {
 
     constructor(text: string, variant: 'primary' | 'secondary' = 'primary', onClick?: () => void) {
         this.element = document.createElement('button');
-        this.element.className = btn btn-${variant};
+        this.element.className = `btn btn-${variant}`;
         this.element.textContent = text;
         
         if (onClick) {

@@ -1,4 +1,3 @@
-client/src/store/cartStore.ts
 import { api } from '../services/api';
 import { Cart, CartItem } from '../types';
 import { authStore } from './authStore';

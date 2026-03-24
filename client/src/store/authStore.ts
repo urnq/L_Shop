@@ -1,4 +1,4 @@
-mport { api } from '../services/api';
+import { api } from '../services/api';
 import { User } from '../types';
 
 interface AuthState {

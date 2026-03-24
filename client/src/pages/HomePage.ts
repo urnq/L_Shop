@@ -8,7 +8,7 @@ export class HomePage {
     private products: any[] = [];
     private filters: any = {};
     private loader: Loader;
-    private productsContainer: HTMLElement;
+    private productsContainer!: HTMLElement;
     private onCartUpdate: () => void;
 
     constructor(container: HTMLElement, onCartUpdate?: () => void) {
