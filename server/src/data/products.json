@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "title": "Elden Ring",
+        "description": "The critically acclaimed fantasy action RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+        "price": 59.99,
+        "category": "Action RPG",
+        "inStock": true,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+        "platform": "PC",
+        "releaseYear": 2022,
+        "rating": 4.8
+    },
+    {
+        "id": "2",
+        "title": "God of War Ragnarök",
+        "description": "Embark on an epic and heartfelt journey as Kratos and Atreus struggle with holding on and letting go.",
+        "price": 69.99,
+        "category": "Action Adventure",
+        "inStock": true,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/header.jpg",
+        "platform": "PS5",
+        "releaseYear": 2022,
+        "rating": 4.9
+    },
+    {
+        "id": "3",
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "description": "An epic adventure across the land and skies of Hyrule awaits in this sequel to The Legend of Zelda: Breath of the Wild.",
+        "price": 69.99,
+        "category": "Action Adventure",
+        "inStock": true,
+        "image": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_400/ncom/en_US/games/switch/t/the-legend-of-zelda-tears-of-the-kingdom-switch/hero",
+        "platform": "Nintendo Switch",
+        "releaseYear": 2023,
+        "rating": 5.0
+    },
+    {
+        "id": "4",
+        "title": "Starfield",
+        "description": "Embark on an epic journey through the stars in Bethesda Game Studios' first new universe in 25 years.",
+        "price": 69.99,
+        "category": "RPG",
+        "inStock": false,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/header.jpg",
+        "platform": "Xbox Series X",
+        "releaseYear": 2023,
+        "rating": 4.5
+    },
+    {
+        "id": "5",
+        "title": "Baldur's Gate 3",
+        "description": "Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival.",
+        "price": 59.99,
+        "category": "RPG",
+        "inStock": true,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+        "platform": "PC",
+        "releaseYear": 2023,
+        "rating": 4.9
+    },
+    {
+        "id": "6",
+        "title": "Spider-Man 2",
+        "description": "Be greater together. The incredible power of the symbiote forces Peter Parker and Miles Morales into a desperate fight for their lives.",
+        "price": 69.99,
+        "category": "Action Adventure",
+        "inStock": true,
+        "image": "./images/Spider-Man2",
+        "platform": "PS5",
+        "releaseYear": 2023,
+        "rating": 4.8
+    },
+    {
+        "id": "7",
+        "title": "Cyberpunk 2077: Phantom Liberty",
+        "description": "Become V, a cyberpunk mercenary, and join the new high-stakes spy-thriller adventure.",
+        "price": 29.99,
+        "category": "RPG",
+        "inStock": true,
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2138330/header.jpg",
+        "platform": "PC",
+        "releaseYear": 2023,
+        "rating": 4.7
+    },
+    {
+        "id": "8",
+        "title": "Super Mario Bros. Wonder",
+        "description": "Find wonder in the next evolution of Mario fun. Classic Mario side-scrolling gameplay is turned on its head.",
+        "price": 59.99,
+        "category": "Platformer",
+        "inStock": true,
+        "image": "https://www.nintendo.com/eu/media/images/10_screenshots/games/switch/super-mario-bros-wonder-switch/super-mario-bros-wonder-switch_image950w.jpg",
+        "platform": "Nintendo Switch",
+        "releaseYear": 2023,
+        "rating": 4.9
+    }
+]
