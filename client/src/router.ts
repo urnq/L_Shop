@@ -1,4 +1,8 @@
 import { HomePage } from './pages/HomePage';
+import { AuthPage } from './pages/AuthPage';
+import { CartPage } from './pages/CartPage';
+import { CheckoutPage } from './pages/CheckoutPage';
+import { OrdersPage } from './pages/OrdersPage';
 
 type PageConstructor = new (container: HTMLElement, ...args: any[]) => any;
 
@@ -15,11 +19,10 @@ export class Router {
 
     private initRoutes(): void {
         this.routes.set('/', HomePage);
-        // Временные заглушки для страниц Паши
-        this.routes.set('/auth', class { constructor() {} async init() {} destroy() {} });
-        this.routes.set('/cart', class { constructor() {} async init() {} destroy() {} });
-        this.routes.set('/checkout', class { constructor() {} async init() {} destroy() {} });
-        this.routes.set('/orders', class { constructor() {} async init() {} destroy() {} });
+        this.routes.set('/auth', AuthPage);
+        this.routes.set('/cart', CartPage);
+        this.routes.set('/checkout', CheckoutPage);
+        this.routes.set('/orders', OrdersPage);
     }
 
     public init(): void {

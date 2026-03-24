@@ -1,4 +1,4 @@
-import { api } from '../services/api';
+import { cartStore } from '../store/cartStore';
 
 export class ProductCard {
     private element: HTMLElement;
@@ -12,7 +12,7 @@ export class ProductCard {
         if (addButton) {
             addButton.addEventListener('click', async (e) => {
                 e.stopPropagation();
-                await api.addToCart(product.id, 1);
+                await cartStore.addToCart(product.id, 1);
                 if (onAddToCart) onAddToCart();
             });
         }

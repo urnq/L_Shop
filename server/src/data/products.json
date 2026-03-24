@@ -66,7 +66,7 @@
         "price": 69.99,
         "category": "Action Adventure",
         "inStock": true,
-        "image": "./images/Spider-Man2",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2523250/header.jpg",
         "platform": "PS5",
         "releaseYear": 2023,
         "rating": 4.8
@@ -90,7 +90,7 @@
         "price": 59.99,
         "category": "Platformer",
         "inStock": true,
-        "image": "https://www.nintendo.com/eu/media/images/10_screenshots/games/switch/super-mario-bros-wonder-switch/super-mario-bros-wonder-switch_image950w.jpg",
+        "image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hny.webp",
         "platform": "Nintendo Switch",
         "releaseYear": 2023,
         "rating": 4.9
